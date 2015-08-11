@@ -1,0 +1,90 @@
+h1 {
+font-size: 20px;
+font-family: Tahoma;
+
+}
+
+h2 {
+font-size: 15px;
+font-family: Tahoma;
+}
+
+
+
+
+
+#central {
+
+width: 360px;
+height: auto;
+position: relative;
+border: 1px solid black;
+
+}
+
+
+
+#topqtr {
+
+height:30px;
+width:300px;
+background-color: red;
+float: top;
+margin: auto;
+clear: both;
+text-align: center;
+
+ } 
+
+#leftqtr {
+
+
+height:300px;
+width:30px;
+background-color: lightgreen;
+float: left;
+margin: auto;
+text-align: center;
+
+
+}
+
+
+#cube {
+
+height:300px;
+width:300px;
+margin: auto;
+float: left;
+text-align: center;
+background-color: lightgray;
+
+}
+
+#rightqtr {
+
+
+height:300px;
+width:30px;
+background-color: lightblue;
+float: left;
+text-align: center;
+
+
+
+ }  
+
+#bottomqtr {
+
+height:30px;
+width:300px;
+background-color: orange;
+clear: both;
+margin: auto;
+text-align: center;
+
+
+}
+
+
+
