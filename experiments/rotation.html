@@ -12,10 +12,12 @@
 	</div>
 	
 	<div id="js-area">
-	
+	<div id="myAnimation"></div>
 	</div>
 	
-	
+	<div class="buttonWrapper">
+	<button class="button" onclick="myMove()">Move</button>
+	</div>
 	
 	<a href="exp.html">
 	<div id="footer">
@@ -24,5 +26,24 @@
 	</a>
 	
 	</body>
+	
+	<script>
+	function myMove() {
+		var elem = document.getElementById("myAnimation"); 
+		var pos = 11;
+		var id = setInterval(frame, 10);
+		function frame() {
+						
+			if (pos == 350) {
+				clearInterval(id);
+			} else  {
+			
+				pos++;	
+				elem.style.top = pos + 'px'; 
+				elem.style.left = pos + 'px';
+			}
+		}
+}
+</script>
 	
 </html>
