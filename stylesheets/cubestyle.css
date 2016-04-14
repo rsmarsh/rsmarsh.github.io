@@ -41,7 +41,18 @@ margin: auto;
 clear: both;
 text-align: center;
 
- } 
+ }
+
+#leftcontent {
+
+    height: 300px;
+    width: 80px;
+    background-color: #BABAB2;
+    float: left;
+    margin: auto;
+    text-align: center;
+
+}
 
 #leftqtr {
 
